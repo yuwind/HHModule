@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD13B1EB1EC563400001985F /* HHRetryAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = BD13B1C61EC563400001985F /* HHRetryAlertView.m */; };
+		BD13B1EC1EC563400001985F /* HHTextAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = BD13B1C81EC563400001985F /* HHTextAlertView.m */; };
+		BD13B1ED1EC563400001985F /* HHWaitingHudView.m in Sources */ = {isa = PBXBuildFile; fileRef = BD13B1CA1EC563400001985F /* HHWaitingHudView.m */; };
+		BD13B1EE1EC563400001985F /* UIView+HHConstruct.m in Sources */ = {isa = PBXBuildFile; fileRef = BD13B1CC1EC563400001985F /* UIView+HHConstruct.m */; };
+		BD13B1EF1EC563400001985F /* UIViewController+HHConstruct.m in Sources */ = {isa = PBXBuildFile; fileRef = BD13B1CE1EC563400001985F /* UIViewController+HHConstruct.m */; };
+		BD13B1F01EC563400001985F /* HHBaseTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = BD13B1D11EC563400001985F /* HHBaseTableView.m */; };
+		BD13B1F11EC563400001985F /* HHBlockActionKey.m in Sources */ = {isa = PBXBuildFile; fileRef = BD13B1D31EC563400001985F /* HHBlockActionKey.m */; };
+		BD13B1F21EC563400001985F /* HHHoverCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BD13B1D51EC563400001985F /* HHHoverCollectionViewCell.m */; };
+		BD13B1F31EC563400001985F /* HHHoverLinkageView.m in Sources */ = {isa = PBXBuildFile; fileRef = BD13B1D71EC563400001985F /* HHHoverLinkageView.m */; };
+		BD13B1F61EC563400001985F /* HHLinkageView.m in Sources */ = {isa = PBXBuildFile; fileRef = BD13B1DE1EC563400001985F /* HHLinkageView.m */; };
+		BD13B1F71EC563400001985F /* HHBaseFooterRefreshView.m in Sources */ = {isa = PBXBuildFile; fileRef = BD13B1E11EC563400001985F /* HHBaseFooterRefreshView.m */; };
+		BD13B1F81EC563400001985F /* HHBaseHeaderRefreshView.m in Sources */ = {isa = PBXBuildFile; fileRef = BD13B1E31EC563400001985F /* HHBaseHeaderRefreshView.m */; };
+		BD13B1F91EC563400001985F /* HHBaseRefreshView.m in Sources */ = {isa = PBXBuildFile; fileRef = BD13B1E51EC563400001985F /* HHBaseRefreshView.m */; };
+		BD13B1FA1EC563400001985F /* HHCircleRefreshView.m in Sources */ = {isa = PBXBuildFile; fileRef = BD13B1E71EC563400001985F /* HHCircleRefreshView.m */; };
+		BD13B1FB1EC563400001985F /* HHRefreshManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BD13B1E91EC563400001985F /* HHRefreshManager.m */; };
+		BD13B1FC1EC563400001985F /* refreshmImages.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BD13B1EA1EC563400001985F /* refreshmImages.bundle */; };
+		BD13B2011EC563BA0001985F /* HHHoverTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = BD13B1FE1EC563BA0001985F /* HHHoverTableView.m */; };
+		BD13B2021EC563BA0001985F /* HHHoverTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BD13B2001EC563BA0001985F /* HHHoverTableViewCell.m */; };
+		BDFBB3241EC2B5640098BDD0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BDFBB3231EC2B5640098BDD0 /* main.m */; };
+		BDFBB3271EC2B5640098BDD0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BDFBB3261EC2B5640098BDD0 /* AppDelegate.m */; };
+		BDFBB32A1EC2B5640098BDD0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDFBB3291EC2B5640098BDD0 /* ViewController.m */; };
+		BDFBB32D1EC2B5640098BDD0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDFBB32B1EC2B5640098BDD0 /* Main.storyboard */; };
+		BDFBB32F1EC2B5640098BDD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDFBB32E1EC2B5640098BDD0 /* Assets.xcassets */; };
+		BDFBB3321EC2B5640098BDD0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDFBB3301EC2B5640098BDD0 /* LaunchScreen.storyboard */; };
+		BDFBB3CC1EC309160098BDD0 /* pic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BDFBB3CB1EC309160098BDD0 /* pic.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BD13B1C51EC563400001985F /* HHRetryAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHRetryAlertView.h; sourceTree = "<group>"; };
+		BD13B1C61EC563400001985F /* HHRetryAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHRetryAlertView.m; sourceTree = "<group>"; };
+		BD13B1C71EC563400001985F /* HHTextAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHTextAlertView.h; sourceTree = "<group>"; };
+		BD13B1C81EC563400001985F /* HHTextAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHTextAlertView.m; sourceTree = "<group>"; };
+		BD13B1C91EC563400001985F /* HHWaitingHudView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHWaitingHudView.h; sourceTree = "<group>"; };
+		BD13B1CA1EC563400001985F /* HHWaitingHudView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHWaitingHudView.m; sourceTree = "<group>"; };
+		BD13B1CB1EC563400001985F /* UIView+HHConstruct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HHConstruct.h"; sourceTree = "<group>"; };
+		BD13B1CC1EC563400001985F /* UIView+HHConstruct.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HHConstruct.m"; sourceTree = "<group>"; };
+		BD13B1CD1EC563400001985F /* UIViewController+HHConstruct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+HHConstruct.h"; sourceTree = "<group>"; };
+		BD13B1CE1EC563400001985F /* UIViewController+HHConstruct.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+HHConstruct.m"; sourceTree = "<group>"; };
+		BD13B1D01EC563400001985F /* HHBaseTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHBaseTableView.h; sourceTree = "<group>"; };
+		BD13B1D11EC563400001985F /* HHBaseTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHBaseTableView.m; sourceTree = "<group>"; };
+		BD13B1D21EC563400001985F /* HHBlockActionKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHBlockActionKey.h; sourceTree = "<group>"; };
+		BD13B1D31EC563400001985F /* HHBlockActionKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHBlockActionKey.m; sourceTree = "<group>"; };
+		BD13B1D41EC563400001985F /* HHHoverCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHHoverCollectionViewCell.h; sourceTree = "<group>"; };
+		BD13B1D51EC563400001985F /* HHHoverCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHHoverCollectionViewCell.m; sourceTree = "<group>"; };
+		BD13B1D61EC563400001985F /* HHHoverLinkageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHHoverLinkageView.h; sourceTree = "<group>"; };
+		BD13B1D71EC563400001985F /* HHHoverLinkageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHHoverLinkageView.m; sourceTree = "<group>"; };
+		BD13B1DD1EC563400001985F /* HHLinkageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHLinkageView.h; sourceTree = "<group>"; };
+		BD13B1DE1EC563400001985F /* HHLinkageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHLinkageView.m; sourceTree = "<group>"; };
+		BD13B1E01EC563400001985F /* HHBaseFooterRefreshView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHBaseFooterRefreshView.h; sourceTree = "<group>"; };
+		BD13B1E11EC563400001985F /* HHBaseFooterRefreshView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHBaseFooterRefreshView.m; sourceTree = "<group>"; };
+		BD13B1E21EC563400001985F /* HHBaseHeaderRefreshView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHBaseHeaderRefreshView.h; sourceTree = "<group>"; };
+		BD13B1E31EC563400001985F /* HHBaseHeaderRefreshView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHBaseHeaderRefreshView.m; sourceTree = "<group>"; };
+		BD13B1E41EC563400001985F /* HHBaseRefreshView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHBaseRefreshView.h; sourceTree = "<group>"; };
+		BD13B1E51EC563400001985F /* HHBaseRefreshView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHBaseRefreshView.m; sourceTree = "<group>"; };
+		BD13B1E61EC563400001985F /* HHCircleRefreshView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHCircleRefreshView.h; sourceTree = "<group>"; };
+		BD13B1E71EC563400001985F /* HHCircleRefreshView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHCircleRefreshView.m; sourceTree = "<group>"; };
+		BD13B1E81EC563400001985F /* HHRefreshManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHRefreshManager.h; sourceTree = "<group>"; };
+		BD13B1E91EC563400001985F /* HHRefreshManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHRefreshManager.m; sourceTree = "<group>"; };
+		BD13B1EA1EC563400001985F /* refreshmImages.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = refreshmImages.bundle; sourceTree = "<group>"; };
+		BD13B1FD1EC563BA0001985F /* HHHoverTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHHoverTableView.h; sourceTree = "<group>"; };
+		BD13B1FE1EC563BA0001985F /* HHHoverTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHHoverTableView.m; sourceTree = "<group>"; };
+		BD13B1FF1EC563BA0001985F /* HHHoverTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHHoverTableViewCell.h; sourceTree = "<group>"; };
+		BD13B2001EC563BA0001985F /* HHHoverTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHHoverTableViewCell.m; sourceTree = "<group>"; };
+		BDFBB31F1EC2B5640098BDD0 /* HoverLinkageViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HoverLinkageViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDFBB3231EC2B5640098BDD0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BDFBB3251EC2B5640098BDD0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BDFBB3261EC2B5640098BDD0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BDFBB3281EC2B5640098BDD0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BDFBB3291EC2B5640098BDD0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BDFBB32C1EC2B5640098BDD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BDFBB32E1EC2B5640098BDD0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BDFBB3311EC2B5640098BDD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BDFBB3331EC2B5640098BDD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDFBB3CB1EC309160098BDD0 /* pic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pic.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BDFBB31C1EC2B5640098BDD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD13B1C41EC563400001985F /* HHBaseConstruct */ = {
+			isa = PBXGroup;
+			children = (
+				BD13B1CB1EC563400001985F /* UIView+HHConstruct.h */,
+				BD13B1CC1EC563400001985F /* UIView+HHConstruct.m */,
+				BD13B1CD1EC563400001985F /* UIViewController+HHConstruct.h */,
+				BD13B1CE1EC563400001985F /* UIViewController+HHConstruct.m */,
+				BD13B1C71EC563400001985F /* HHTextAlertView.h */,
+				BD13B1C81EC563400001985F /* HHTextAlertView.m */,
+				BD13B1C51EC563400001985F /* HHRetryAlertView.h */,
+				BD13B1C61EC563400001985F /* HHRetryAlertView.m */,
+				BD13B1C91EC563400001985F /* HHWaitingHudView.h */,
+				BD13B1CA1EC563400001985F /* HHWaitingHudView.m */,
+			);
+			name = HHBaseConstruct;
+			path = ../HHModule/HHBaseConstruct;
+			sourceTree = "<group>";
+		};
+		BD13B1CF1EC563400001985F /* HHHoverLinkageView */ = {
+			isa = PBXGroup;
+			children = (
+				BD13B1D61EC563400001985F /* HHHoverLinkageView.h */,
+				BD13B1D71EC563400001985F /* HHHoverLinkageView.m */,
+				BD13B1D41EC563400001985F /* HHHoverCollectionViewCell.h */,
+				BD13B1D51EC563400001985F /* HHHoverCollectionViewCell.m */,
+				BD13B1D01EC563400001985F /* HHBaseTableView.h */,
+				BD13B1D11EC563400001985F /* HHBaseTableView.m */,
+				BD13B1D21EC563400001985F /* HHBlockActionKey.h */,
+				BD13B1D31EC563400001985F /* HHBlockActionKey.m */,
+			);
+			name = HHHoverLinkageView;
+			path = ../HHModule/HHHoverLinkageView;
+			sourceTree = "<group>";
+		};
+		BD13B1DC1EC563400001985F /* HHLinkageView */ = {
+			isa = PBXGroup;
+			children = (
+				BD13B1DD1EC563400001985F /* HHLinkageView.h */,
+				BD13B1DE1EC563400001985F /* HHLinkageView.m */,
+			);
+			name = HHLinkageView;
+			path = ../HHModule/HHLinkageView;
+			sourceTree = "<group>";
+		};
+		BD13B1DF1EC563400001985F /* HHRefreshManager */ = {
+			isa = PBXGroup;
+			children = (
+				BD13B1E81EC563400001985F /* HHRefreshManager.h */,
+				BD13B1E91EC563400001985F /* HHRefreshManager.m */,
+				BD13B1E41EC563400001985F /* HHBaseRefreshView.h */,
+				BD13B1E51EC563400001985F /* HHBaseRefreshView.m */,
+				BD13B1E61EC563400001985F /* HHCircleRefreshView.h */,
+				BD13B1E71EC563400001985F /* HHCircleRefreshView.m */,
+				BD13B1E01EC563400001985F /* HHBaseFooterRefreshView.h */,
+				BD13B1E11EC563400001985F /* HHBaseFooterRefreshView.m */,
+				BD13B1E21EC563400001985F /* HHBaseHeaderRefreshView.h */,
+				BD13B1E31EC563400001985F /* HHBaseHeaderRefreshView.m */,
+				BD13B1EA1EC563400001985F /* refreshmImages.bundle */,
+			);
+			name = HHRefreshManager;
+			path = ../HHModule/HHRefreshManager;
+			sourceTree = "<group>";
+		};
+		BDFBB3161EC2B5640098BDD0 = {
+			isa = PBXGroup;
+			children = (
+				BD13B1DC1EC563400001985F /* HHLinkageView */,
+				BD13B1C41EC563400001985F /* HHBaseConstruct */,
+				BD13B1DF1EC563400001985F /* HHRefreshManager */,
+				BD13B1CF1EC563400001985F /* HHHoverLinkageView */,
+				BDFBB3211EC2B5640098BDD0 /* HoverLinkageViewDemo */,
+				BDFBB3201EC2B5640098BDD0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BDFBB3201EC2B5640098BDD0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BDFBB31F1EC2B5640098BDD0 /* HoverLinkageViewDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BDFBB3211EC2B5640098BDD0 /* HoverLinkageViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				BDFBB3251EC2B5640098BDD0 /* AppDelegate.h */,
+				BDFBB3261EC2B5640098BDD0 /* AppDelegate.m */,
+				BDFBB3281EC2B5640098BDD0 /* ViewController.h */,
+				BDFBB3291EC2B5640098BDD0 /* ViewController.m */,
+				BD13B1FD1EC563BA0001985F /* HHHoverTableView.h */,
+				BD13B1FE1EC563BA0001985F /* HHHoverTableView.m */,
+				BD13B1FF1EC563BA0001985F /* HHHoverTableViewCell.h */,
+				BD13B2001EC563BA0001985F /* HHHoverTableViewCell.m */,
+				BDFBB32B1EC2B5640098BDD0 /* Main.storyboard */,
+				BDFBB3CB1EC309160098BDD0 /* pic.jpg */,
+				BDFBB32E1EC2B5640098BDD0 /* Assets.xcassets */,
+				BDFBB3301EC2B5640098BDD0 /* LaunchScreen.storyboard */,
+				BDFBB3331EC2B5640098BDD0 /* Info.plist */,
+				BDFBB3221EC2B5640098BDD0 /* Supporting Files */,
+			);
+			path = HoverLinkageViewDemo;
+			sourceTree = "<group>";
+		};
+		BDFBB3221EC2B5640098BDD0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BDFBB3231EC2B5640098BDD0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BDFBB31E1EC2B5640098BDD0 /* HoverLinkageViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDFBB3361EC2B5640098BDD0 /* Build configuration list for PBXNativeTarget "HoverLinkageViewDemo" */;
+			buildPhases = (
+				BDFBB31B1EC2B5640098BDD0 /* Sources */,
+				BDFBB31C1EC2B5640098BDD0 /* Frameworks */,
+				BDFBB31D1EC2B5640098BDD0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HoverLinkageViewDemo;
+			productName = HoverLinkageViewDemo;
+			productReference = BDFBB31F1EC2B5640098BDD0 /* HoverLinkageViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BDFBB3171EC2B5640098BDD0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = hxw;
+				TargetAttributes = {
+					BDFBB31E1EC2B5640098BDD0 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = ULW82G2846;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = BDFBB31A1EC2B5640098BDD0 /* Build configuration list for PBXProject "HoverLinkageViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BDFBB3161EC2B5640098BDD0;
+			productRefGroup = BDFBB3201EC2B5640098BDD0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BDFBB31E1EC2B5640098BDD0 /* HoverLinkageViewDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BDFBB31D1EC2B5640098BDD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD13B1FC1EC563400001985F /* refreshmImages.bundle in Resources */,
+				BDFBB3321EC2B5640098BDD0 /* LaunchScreen.storyboard in Resources */,
+				BDFBB32F1EC2B5640098BDD0 /* Assets.xcassets in Resources */,
+				BDFBB32D1EC2B5640098BDD0 /* Main.storyboard in Resources */,
+				BDFBB3CC1EC309160098BDD0 /* pic.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BDFBB31B1EC2B5640098BDD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD13B1ED1EC563400001985F /* HHWaitingHudView.m in Sources */,
+				BD13B1F91EC563400001985F /* HHBaseRefreshView.m in Sources */,
+				BDFBB32A1EC2B5640098BDD0 /* ViewController.m in Sources */,
+				BDFBB3271EC2B5640098BDD0 /* AppDelegate.m in Sources */,
+				BD13B1F21EC563400001985F /* HHHoverCollectionViewCell.m in Sources */,
+				BD13B1F11EC563400001985F /* HHBlockActionKey.m in Sources */,
+				BD13B2011EC563BA0001985F /* HHHoverTableView.m in Sources */,
+				BD13B1F31EC563400001985F /* HHHoverLinkageView.m in Sources */,
+				BD13B1F71EC563400001985F /* HHBaseFooterRefreshView.m in Sources */,
+				BD13B1EC1EC563400001985F /* HHTextAlertView.m in Sources */,
+				BD13B1EE1EC563400001985F /* UIView+HHConstruct.m in Sources */,
+				BD13B1EB1EC563400001985F /* HHRetryAlertView.m in Sources */,
+				BD13B2021EC563BA0001985F /* HHHoverTableViewCell.m in Sources */,
+				BD13B1EF1EC563400001985F /* UIViewController+HHConstruct.m in Sources */,
+				BD13B1F61EC563400001985F /* HHLinkageView.m in Sources */,
+				BD13B1F81EC563400001985F /* HHBaseHeaderRefreshView.m in Sources */,
+				BD13B1FA1EC563400001985F /* HHCircleRefreshView.m in Sources */,
+				BDFBB3241EC2B5640098BDD0 /* main.m in Sources */,
+				BD13B1F01EC563400001985F /* HHBaseTableView.m in Sources */,
+				BD13B1FB1EC563400001985F /* HHRefreshManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BDFBB32B1EC2B5640098BDD0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDFBB32C1EC2B5640098BDD0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BDFBB3301EC2B5640098BDD0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDFBB3311EC2B5640098BDD0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BDFBB3341EC2B5640098BDD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BDFBB3351EC2B5640098BDD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BDFBB3371EC2B5640098BDD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ULW82G2846;
+				INFOPLIST_FILE = HoverLinkageViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.le.-.HoverLinkageViewDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BDFBB3381EC2B5640098BDD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ULW82G2846;
+				INFOPLIST_FILE = HoverLinkageViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.le.-.HoverLinkageViewDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BDFBB31A1EC2B5640098BDD0 /* Build configuration list for PBXProject "HoverLinkageViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDFBB3341EC2B5640098BDD0 /* Debug */,
+				BDFBB3351EC2B5640098BDD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDFBB3361EC2B5640098BDD0 /* Build configuration list for PBXNativeTarget "HoverLinkageViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDFBB3371EC2B5640098BDD0 /* Debug */,
+				BDFBB3381EC2B5640098BDD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BDFBB3171EC2B5640098BDD0 /* Project object */;
+}
