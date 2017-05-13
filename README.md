@@ -3,7 +3,7 @@ This is a cool hover interactive view, Integrated the commonly used waithud and 
 这个一个炫酷的悬停交互视图，集成了多种样式的waithud和刷新控件，不需要依赖第三方库。
 
 
-**详细介绍：**请移步[简书](http://www.jianshu.com/p/c4cf00d9c45b)
+- **详细介绍** ：请移步[简书](http://www.jianshu.com/p/c4cf00d9c45b)
 
 **使用方式：**
 >将下载文件中的HHModule直接拖入自己的工程目录
