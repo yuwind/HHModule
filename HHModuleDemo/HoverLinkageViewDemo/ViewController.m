@@ -36,12 +36,11 @@
     _hoverView= [[HHHoverLinkageView alloc]initWithFrame:CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height)];
     _hoverView.delegate = self;
     _hoverView.linkageView.titleArray = self.titleArray;
-    _hoverView.dataArray = self.titleArray;
     _hoverView.tableViewClassName = NSStringFromClass([HHHoverTableView class]);
+    _hoverView.dataArray = self.titleArray;
     [self.view addSubview:_hoverView];
-    
+
     [self addBlockActionEvents];
-    
 }
 
 - (void)addBlockActionEvents
