@@ -26,9 +26,9 @@
 		BD13B2011EC563BA0001985F /* HHHoverTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = BD13B1FE1EC563BA0001985F /* HHHoverTableView.m */; };
 		BD13B2021EC563BA0001985F /* HHHoverTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BD13B2001EC563BA0001985F /* HHHoverTableViewCell.m */; };
 		BDFBB3241EC2B5640098BDD0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BDFBB3231EC2B5640098BDD0 /* main.m */; };
-		BDFBB3271EC2B5640098BDD0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BDFBB3261EC2B5640098BDD0 /* AppDelegate.m */; };
-		BDFBB32A1EC2B5640098BDD0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDFBB3291EC2B5640098BDD0 /* ViewController.m */; };
-		BDFBB32D1EC2B5640098BDD0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDFBB32B1EC2B5640098BDD0 /* Main.storyboard */; };
+		BDFBB3271EC2B5640098BDD0 /* HHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BDFBB3261EC2B5640098BDD0 /* HHAppDelegate.m */; };
+		BDFBB32A1EC2B5640098BDD0 /* HHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDFBB3291EC2B5640098BDD0 /* HHViewController.m */; };
+		BDFBB32D1EC2B5640098BDD0 /* HHMain.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDFBB32B1EC2B5640098BDD0 /* HHMain.storyboard */; };
 		BDFBB32F1EC2B5640098BDD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDFBB32E1EC2B5640098BDD0 /* Assets.xcassets */; };
 		BDFBB3321EC2B5640098BDD0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDFBB3301EC2B5640098BDD0 /* LaunchScreen.storyboard */; };
 		BDFBB3CC1EC309160098BDD0 /* pic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BDFBB3CB1EC309160098BDD0 /* pic.jpg */; };
@@ -72,11 +72,11 @@
 		BD13B2001EC563BA0001985F /* HHHoverTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHHoverTableViewCell.m; sourceTree = "<group>"; };
 		BDFBB31F1EC2B5640098BDD0 /* HoverLinkageViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HoverLinkageViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDFBB3231EC2B5640098BDD0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		BDFBB3251EC2B5640098BDD0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		BDFBB3261EC2B5640098BDD0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		BDFBB3281EC2B5640098BDD0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		BDFBB3291EC2B5640098BDD0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		BDFBB32C1EC2B5640098BDD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BDFBB3251EC2B5640098BDD0 /* HHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHAppDelegate.h; sourceTree = "<group>"; };
+		BDFBB3261EC2B5640098BDD0 /* HHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHAppDelegate.m; sourceTree = "<group>"; };
+		BDFBB3281EC2B5640098BDD0 /* HHViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHViewController.h; sourceTree = "<group>"; };
+		BDFBB3291EC2B5640098BDD0 /* HHViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHViewController.m; sourceTree = "<group>"; };
+		BDFBB32C1EC2B5640098BDD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/HHMain.storyboard; sourceTree = "<group>"; };
 		BDFBB32E1EC2B5640098BDD0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BDFBB3311EC2B5640098BDD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BDFBB3331EC2B5640098BDD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -180,15 +180,15 @@
 		BDFBB3211EC2B5640098BDD0 /* HoverLinkageViewDemo */ = {
 			isa = PBXGroup;
 			children = (
-				BDFBB3251EC2B5640098BDD0 /* AppDelegate.h */,
-				BDFBB3261EC2B5640098BDD0 /* AppDelegate.m */,
-				BDFBB3281EC2B5640098BDD0 /* ViewController.h */,
-				BDFBB3291EC2B5640098BDD0 /* ViewController.m */,
+				BDFBB3251EC2B5640098BDD0 /* HHAppDelegate.h */,
+				BDFBB3261EC2B5640098BDD0 /* HHAppDelegate.m */,
+				BDFBB3281EC2B5640098BDD0 /* HHViewController.h */,
+				BDFBB3291EC2B5640098BDD0 /* HHViewController.m */,
 				BD13B1FD1EC563BA0001985F /* HHHoverTableView.h */,
 				BD13B1FE1EC563BA0001985F /* HHHoverTableView.m */,
 				BD13B1FF1EC563BA0001985F /* HHHoverTableViewCell.h */,
 				BD13B2001EC563BA0001985F /* HHHoverTableViewCell.m */,
-				BDFBB32B1EC2B5640098BDD0 /* Main.storyboard */,
+				BDFBB32B1EC2B5640098BDD0 /* HHMain.storyboard */,
 				BDFBB3CB1EC309160098BDD0 /* pic.jpg */,
 				BDFBB32E1EC2B5640098BDD0 /* Assets.xcassets */,
 				BDFBB3301EC2B5640098BDD0 /* LaunchScreen.storyboard */,
@@ -268,7 +268,7 @@
 				BD13B1FC1EC563400001985F /* refreshmImages.bundle in Resources */,
 				BDFBB3321EC2B5640098BDD0 /* LaunchScreen.storyboard in Resources */,
 				BDFBB32F1EC2B5640098BDD0 /* Assets.xcassets in Resources */,
-				BDFBB32D1EC2B5640098BDD0 /* Main.storyboard in Resources */,
+				BDFBB32D1EC2B5640098BDD0 /* HHMain.storyboard in Resources */,
 				BDFBB3CC1EC309160098BDD0 /* pic.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,8 +282,8 @@
 			files = (
 				BD13B1ED1EC563400001985F /* HHWaitingHudView.m in Sources */,
 				BD13B1F91EC563400001985F /* HHBaseRefreshView.m in Sources */,
-				BDFBB32A1EC2B5640098BDD0 /* ViewController.m in Sources */,
-				BDFBB3271EC2B5640098BDD0 /* AppDelegate.m in Sources */,
+				BDFBB32A1EC2B5640098BDD0 /* HHViewController.m in Sources */,
+				BDFBB3271EC2B5640098BDD0 /* HHAppDelegate.m in Sources */,
 				BD13B1F21EC563400001985F /* HHHoverCollectionViewCell.m in Sources */,
 				BD13B1F11EC563400001985F /* HHBlockActionKey.m in Sources */,
 				BD13B2011EC563BA0001985F /* HHHoverTableView.m in Sources */,
@@ -306,12 +306,12 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		BDFBB32B1EC2B5640098BDD0 /* Main.storyboard */ = {
+		BDFBB32B1EC2B5640098BDD0 /* HHMain.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				BDFBB32C1EC2B5640098BDD0 /* Base */,
 			);
-			name = Main.storyboard;
+			name = HHMain.storyboard;
 			sourceTree = "<group>";
 		};
 		BDFBB3301EC2B5640098BDD0 /* LaunchScreen.storyboard */ = {

@@ -6,20 +6,20 @@
 //  Copyright © 2017年 hxw. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "HHViewController.h"
 #import "HHHoverLinkageView.h"
 #import "UIViewController+HHConstruct.h"
 #import "HHBlockActionKey.h"
 #import "HHHoverTableView.h"
 
-@interface ViewController ()< HHHoverLinkageViewDelegate >
+@interface HHViewController ()< HHHoverLinkageViewDelegate >
 
 @property (nonatomic, strong) HHHoverLinkageView *hoverView;
 @property (nonatomic, strong) NSArray *titleArray;
 
 @end
 
-@implementation ViewController
+@implementation HHViewController
 
 - (NSArray *)titleArray
 {
@@ -32,7 +32,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    
     _hoverView= [[HHHoverLinkageView alloc]initWithFrame:CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height)];
     _hoverView.delegate = self;
     _hoverView.linkageView.titleArray = self.titleArray;

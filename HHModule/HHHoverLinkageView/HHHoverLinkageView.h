@@ -27,7 +27,7 @@
 UIKIT_STATIC_INLINE void AddBlockAction(NSMutableDictionary *dictM, NSString *key, id block)
 {
     key = [key stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
-    if (dictM == nil)return; if (key == nil)return;if (block == nil) return;
+    if (dictM == nil || key == nil || block == nil)return;
     [dictM setObject:block forKey:key];
 }
 

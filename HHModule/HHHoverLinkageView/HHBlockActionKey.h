@@ -22,7 +22,4 @@ UIKIT_EXTERN BlockActionKeyName const TableViewCellButtonClick;
 
 @interface HHBlockActionKey : NSObject
 
-/**
- <#Description#>
- */
 @end
